@@ -21,16 +21,19 @@ Pequeño manual de usuario:
 1. Ingresar el nombre del pokemón a buscar, si el resultado es efectivo se mostrará una tarjeta con los datos del pokemón buscado. Con el botón que se muestra en la parte inferior podrás añadirlo en tu colección.
    Una vez que lo agregues automáticamente te va a dirigir a la parte de 'Mi colección'.
 
-![image](https://github.com/cesarimm/testreact/assets/29169664/40470fe9-6412-4bc5-adb9-c4d5c9cca4cf)
+![Captura desde 2023-09-10 10-35-43](https://github.com/cesarimm/testreact/assets/29169664/3606de45-b4dc-45ba-a748-c0ea7812a9f0)
+
 
 2. En el apartado de mi colección podremos actualizar la cantidad de cada uno de los pokemones que tenemos, ademas de eliminarlos de manera individual.
 3. En la parte superiro se encuentra un botón con el cual se pueden 'eliminar todos los polemones de nuestra coleccion'
 
-![image](https://github.com/cesarimm/testreact/assets/29169664/06250db2-c4ba-4d8d-9833-13eae92e47e2)
+![Captura desde 2023-09-10 10-44-48](https://github.com/cesarimm/testreact/assets/29169664/52bad0eb-898f-43a2-830f-39ec233fdb53)
+
 
 4. En el apartado de Pokemon Analytics ( http://localhost:5173/pokemon-analitics) podremos ver una grafica que nos muestra el tipo de pokemones que tenemos en nuestra colección.
 
- ![image](https://github.com/cesarimm/testreact/assets/29169664/5d7b9b99-eded-4835-8207-783e23cda4e9)
+![Captura desde 2023-09-10 10-48-07](https://github.com/cesarimm/testreact/assets/29169664/b1ef24e8-fa61-4048-b069-05ffbe9e2bb2)
+
  
 
 

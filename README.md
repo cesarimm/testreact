@@ -13,7 +13,8 @@ Nota: El proyecto se inicializó en VITE 4.4.5 con una version de React 18.2.+
 Se realizó despliegue del proyecto en Netlify para probarlo acceder al siguiente enlace: https://pokedexcimm.netlify.app/search
 Tiene un error por temas de configuracion al momento de realizar el despliegue, por cuestiones tiempo no se realizó la corrección del error, pero se resuelve de la siguiente manera dando clic en el texto 'Back to our site'. Y de esta manera se soluciona, este error no se presenta en el ambiente de desarrollo.
 
-![image](https://github.com/cesarimm/testreact/assets/29169664/b5275fb8-e37f-4f25-aa0a-8de137ed8c61)
+![image](https://github.com/cesarimm/testreact/assets/29169664/0f96b6a9-3f56-44b2-a2ff-f2e90e65cc43)
+
 
 Pequeño manual de usuario:
 

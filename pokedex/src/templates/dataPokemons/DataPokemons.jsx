@@ -8,11 +8,7 @@ const DataPokemons = () => {
     const dispatch = useDispatch();
     const pokemonPersist = useSelector((state) => state.pokemon);
     const { pokemonsCollection } = pokemonPersist;
-    const [pokemonAnalitics, setPokemonAnalitics] = useState([]);
-
-    useEffect(() => {
-        console.log(pokemonAnalitics);
-    }, [pokemonAnalitics]);
+    const [pokemonAnalitics, setPokemonAnalitics] = useState();
 
     useEffect(() => {
         const typeCounts = {};

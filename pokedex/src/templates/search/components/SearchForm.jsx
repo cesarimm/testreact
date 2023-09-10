@@ -35,7 +35,6 @@ export const SearchForm = ({ setPokemon, setIsLoading }) => {
             try {
                 const name = pokemonName ? pokemonName.toLowerCase() : '';
                 const response = await get(`pokemon/${name}`, {});
-                console.log('response', response);
                 if (response.data?.count) {
                     setPokemon({ isLoaded: 2, pokemon: response.data });
                 } else if (response.data?.name) {

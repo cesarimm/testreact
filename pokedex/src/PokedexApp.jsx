@@ -20,11 +20,13 @@ export const PokedexApp = () => {
     return (
         <>
             <GlobalStyle />
-            <ContainerApp className="App">
-                <Header />
-                <Sidebar />
-                <RoutesPokedex />
-            </ContainerApp>{' '}
+            <div style={{ background: '#f0f0f096' }}>
+                <ContainerApp className="App">
+                    <Header />
+                    <Sidebar />
+                    <RoutesPokedex />
+                </ContainerApp>{' '}
+            </div>
         </>
     );
 };

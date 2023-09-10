@@ -39,18 +39,26 @@ export const CollectionContainer = ({ pokemonsCollection, deleteCollection, last
     };
     return (
         <>
-            <DvTitle>
-                <h2>
-                    Último pokemón seleccionado: <span>{`${lastAdded.charAt(0).toUpperCase()}${lastAdded.slice(1)}`}</span>
-                </h2>
-                <button onClick={deletePokemons}>Vaciar toda mi colección</button>
-            </DvTitle>
-            <DivCollectionContainer>
-                {pokemonsCollection.length &&
-                    pokemonsCollection.map((pokemon) => {
-                        return <Card key={pokemon.name} pokemonData={pokemon} />;
-                    })}
-            </DivCollectionContainer>
+            {pokemonsCollection.length > 0 ? (
+                <>
+                    <DvTitle>
+                        <h2>
+                            Último pokemón seleccionado: <span>{`${lastAdded.charAt(0).toUpperCase()}${lastAdded.slice(1)}`}</span>
+                        </h2>
+                        <button onClick={deletePokemons}>Vaciar toda mi colección</button>
+                    </DvTitle>
+                    <DivCollectionContainer>
+                        {pokemonsCollection.length &&
+                            pokemonsCollection.map((pokemon) => {
+                                return <Card key={pokemon.name} pokemonData={pokemon} />;
+                            })}
+                    </DivCollectionContainer>
+                </>
+            ) : (
+                <DivCollectionContainer>
+                    <h1>No hay elementos en tu colección</h1>
+                </DivCollectionContainer>
+            )}
         </>
     );
 };

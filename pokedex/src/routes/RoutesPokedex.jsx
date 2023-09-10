@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { routesList } from './LazyRoutes';
+import { routesList } from './Routes';
 
 export const RoutesPokedex = () => {
     return (

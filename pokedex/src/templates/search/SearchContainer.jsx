@@ -3,25 +3,39 @@ import { ContentContainer, mixinFont } from '../../PokedexApp.styles';
 import { SearchForm } from './components/SearchForm';
 import { Spinner } from './components/spinner/Spinner';
 import { PokemonCard } from './components/pokemonCard/PokemonCard';
+import pokemonesImg from '../../assets/images/pokemones2.webp';
 
 const DivSearchContainer = styled(ContentContainer)``;
 
 const DivForm = styled.div`
-    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     background: #696969;
     padding: 20px;
-    .title {
-        margin: 10px;
-        color: #fff;
-        ${(props) => mixinFont('22px', '#fff')}
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 160px;
+        .title {
+            margin: 10px;
+            color: #fff;
+            ${(props) => mixinFont('22px', '#fff')}
+        }
+        .description {
+            margin: 10px;
+            color: #fff;
+            ${(props) => mixinFont('18px', '#fff')}
+        }
     }
-    .description {
-        margin: 10px;
-        color: #fff;
-        ${(props) => mixinFont('18px', '#fff')}
+    .image {
+        img {
+            border-radius: 20px;
+            width: 700px;
+            height: 200px;
+        }
     }
 `;
 
@@ -46,9 +60,14 @@ export const SearchContainer = ({ setPokemon, setIsLoading, isLoading, pokemonSe
     return (
         <DivSearchContainer>
             <DivForm>
-                <h2 className={'title'}>Nombre</h2>
-                <SearchForm setPokemon={setPokemon} setIsLoading={setIsLoading} />
-                <p className={'description'}>¡Puedes encontrar Pokemón por su nombre!</p>
+                <div className="content">
+                    <h2 className={'title'}>Nombre</h2>
+                    <SearchForm setPokemon={setPokemon} setIsLoading={setIsLoading} />
+                    <p className={'description'}>¡Puedes encontrar Pokemón por su nombre!</p>
+                </div>
+                {/* <div className="image">
+                    <img src={pokemonesImg} alt="" />
+                </div> */}
             </DivForm>
             {isLoading ? (
                 <Spinner />

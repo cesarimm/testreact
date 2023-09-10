@@ -1,7 +1,7 @@
 Requerimientos previos: 
 Node V.18.+
 
-Nota: El proyecto se inizializó en VITE 4.4.5 con una version de React 18.2.+
+Nota: El proyecto se inicializó en VITE 4.4.5 con una version de React 18.2.+
 
 1. Clonar el repositorio en tu equipo de computo
 2. Una vez clonado acceder a la carpeta 'pokedex' por linea de comandos o terminal
@@ -15,4 +15,50 @@ Tiene un error por temas de configuracion al momento de realizar el despliegue, 
 
 ![image](https://github.com/cesarimm/testreact/assets/29169664/b5275fb8-e37f-4f25-aa0a-8de137ed8c61)
 
+Pequeño manual de usuario:
 
+1. Ingresar el nombre del ppokemon a buscar, si el resultado es efectivo se mostrará una tarjeta con los datos del pokemon buscado. Con el botón que se muestra en la parte inferior podrás añadirlo en tu colección.
+   Una vez que lo agregues autom´tyicamente te va a dirigir a la parte de 'Mi colección'.
+
+![image](https://github.com/cesarimm/testreact/assets/29169664/40470fe9-6412-4bc5-adb9-c4d5c9cca4cf)
+
+2. En el apartado de mi colección podremos actualizar la cantidad de cada uno de los pokemones que tenemos, ademas de eliminarlos de manera individual.
+3. En la parte superiro se encuentra un botón con el cual se pueden 'eliminar todos los polemones de nuestra coleccion'
+
+![image](https://github.com/cesarimm/testreact/assets/29169664/06250db2-c4ba-4d8d-9833-13eae92e47e2)
+
+4. En el apartado de Pokemon Analitics ( http://localhost:5173/pokemon-analitics) podremos ver una grafica que nos muestra el tipo de pokemones que tenemos en nuestra colección.
+
+ ![image](https://github.com/cesarimm/testreact/assets/29169664/5d7b9b99-eded-4835-8207-783e23cda4e9)
+ 
+
+
+ Mejoras y propuestas
+
+-> Estilos y Personalización de Tarjetas:
+En esta fase de mejora, se enfocará en la apariencia visual de la Pokédex.
+Crear tarjetas personalizadas para cada Pokémon, con detalles únicos que reflejen la esencia de cada criatura y typo.
+Personalizar los estilos del Sweet Alert para que se integren de manera armoniosa con la temática de Pokémon, utilizando colores y elementos visuales que evocan el mundo de los juegos.
+
+-> Ampliación de Campos y Filtros de Búsqueda:
+Para mejorar la utilidad de la Pokédex, añadir posibilidad de buscar Pokémon por características específicas como tipo, habilidades, estadísticas, o generación.
+Filtros avanzados que permitirán a los usuarios refinar sus búsquedas y encontrar Pokémon de manera más eficiente. La opción de guardar búsquedas personalizadas para su acceso rápido.
+
+-> Paginación para Carga de Tarjetas:
+A medida que la colección de Pokémon crezca, se implementará un sistema de paginación para mejorar la velocidad de carga y la experiencia del usuario.
+Con el objetivo  de optimizar el rendimiento de la aplicación, reduciendo la carga de datos innecesarios.
+
+-> Implementación de Lazy Loading:
+Para mejorar la velocidad de carga de la aplicación y reducir la carga inicial de recursos, se implementará el lazy loading. Cargar imágenes y datos de Pokémon solo cuando el usuario los visualice, en lugar de cargar todo al principio.
+
+
+
+Conclusiones personales
+
+Este proyecto de la Pokédex ha sido una experiencia divertida y enriquecedora para mí. Antes de comenzar, tenía un conocimiento limitado sobre el mundo de Pokémon, pero a lo largo de este proyecto, no solo he mejorado mis habilidades técnicas, sino que también he adquirido un mayor entendimiento sobre el tema pokemón.
+
+Uno de los aspectos más destacados fue el fortalecimiento y solides de mis habilidades en tecnologías. Me sumergí en React y sus complementos, como Styled Components para el estilo y Axios para las solicitudes de API. Para navegar de manera efectiva en la aplicación utilizando React Router DOM y gestioné el estado de la aplicación de manera eficiente con Redux y Redux Persist.
+
+Además, tuve la oportunidad de explorar nuevas tecnologías, como Chart.js y react-chartjs-2, para visualizar datos de manera atractiva y funcional. Esta adición proporcionó un componente interactivo a mi proyecto.
+
+Otro aspecto importante fue el despliegue de la aplicación en Netlify. Esta experiencia me enseñó cómo llevar mi proyecto al mundo real, haciéndolo accesible en línea de manera eficiente. Aunque tengo un error y aún no sé como resolverlo.

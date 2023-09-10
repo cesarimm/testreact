@@ -17,8 +17,8 @@ Tiene un error por temas de configuracion al momento de realizar el despliegue, 
 
 Pequeño manual de usuario:
 
-1. Ingresar el nombre del ppokemon a buscar, si el resultado es efectivo se mostrará una tarjeta con los datos del pokemon buscado. Con el botón que se muestra en la parte inferior podrás añadirlo en tu colección.
-   Una vez que lo agregues autom´tyicamente te va a dirigir a la parte de 'Mi colección'.
+1. Ingresar el nombre del pokemón a buscar, si el resultado es efectivo se mostrará una tarjeta con los datos del pokemón buscado. Con el botón que se muestra en la parte inferior podrás añadirlo en tu colección.
+   Una vez que lo agregues automáticamente te va a dirigir a la parte de 'Mi colección'.
 
 ![image](https://github.com/cesarimm/testreact/assets/29169664/40470fe9-6412-4bc5-adb9-c4d5c9cca4cf)
 
@@ -27,7 +27,7 @@ Pequeño manual de usuario:
 
 ![image](https://github.com/cesarimm/testreact/assets/29169664/06250db2-c4ba-4d8d-9833-13eae92e47e2)
 
-4. En el apartado de Pokemon Analitics ( http://localhost:5173/pokemon-analitics) podremos ver una grafica que nos muestra el tipo de pokemones que tenemos en nuestra colección.
+4. En el apartado de Pokemon Analytics ( http://localhost:5173/pokemon-analitics) podremos ver una grafica que nos muestra el tipo de pokemones que tenemos en nuestra colección.
 
  ![image](https://github.com/cesarimm/testreact/assets/29169664/5d7b9b99-eded-4835-8207-783e23cda4e9)
  
